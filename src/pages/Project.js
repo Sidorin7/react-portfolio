@@ -21,7 +21,7 @@ const Project = () => {
                 </div>
 
                 {project.gitHubLink && (
-                    <ButtonGitHub link="http://github.com"/>
+                    <ButtonGitHub link={project.gitHubLink}/>
 
                 )}
 
